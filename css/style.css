@@ -1,0 +1,91 @@
+body{
+  color:#FDFDF6;
+}
+video {
+max-width: 450px;
+width: 100%;
+}
+
+.title-light {
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  font-size: 3.6rem;
+}
+.content-luna-about {
+
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-luna-about p, h5{
+    text-align: center;
+}
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.parallax-moon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+
+.parallax-moon::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 999999;
+}
+
+.parallax-moon img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.parallax-moon img#moon {
+  mix-blend-mode: screen;
+}
+.parallax-moon img#moon {
+  mix-blend-mode: screen;
+}
+
+.parallax-moon img#mountains_front {
+  z-index: 10;
+}
+#text {
+  font-family: "Comfortaa", cursive;
+
+  position: absolute;
+  right: -350px;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 7.5vw;
+  z-index: 9;
+}
+
+#btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #1c0522;
+  z-index: 9;
+  transform: translateY(100px);
+}

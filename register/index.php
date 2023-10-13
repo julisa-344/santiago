@@ -1,3 +1,10 @@
+/**
+ * FILEPATH: /c:/Users/olapu/stuff/php-julisa/santiago/register/index.php
+ * 
+ * This file contains a registration form for users to sign up. It requires the config.php file to be included.
+ * The form includes fields for username and password, and a submit button to register the user.
+ * The form is styled using Bootstrap and includes a background gradient.
+ */
 <?php require '../includes/config.php'; ?>
 <!DOCTYPE html>
 <html>
